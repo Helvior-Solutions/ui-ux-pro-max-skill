@@ -21,7 +21,7 @@
   <a href="https://paypal.me/uiuxpromax"><img src="https://img.shields.io/badge/PayPal-Support%20Development-00457C?style=flat-square&logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
 
-Một AI skill cung cấp design intelligence để xây dựng UI/UX chuyên nghiệp trên nhiều platform và framework.
+An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.
 
 <p align="center">
   <a href="https://uupm.cc">
@@ -30,20 +30,20 @@ Một AI skill cung cấp design intelligence để xây dựng UI/UX chuyên ng
 </p>
 
 <p align="center">
-  <b>Nếu bạn thấy dự án này hữu ích, hãy cân nhắc ủng hộ dự án:</b><br><br>
+  <b>If you find this useful, consider supporting the project:</b><br><br>
   <a href="https://paypal.me/uiuxpromax"><img src="https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal Donate"></a>
 </p>
 
 <p align="center">
-  <i>Các dự án khác</i><br>
+  <i>Other projects</i><br>
   <a href="https://nextlevelbuilder.io">NextLevelBuilder.io</a> | <a href="https://goclaw.sh">GoClaw.sh</a> | <a href="https://claudekit.cc">ClaudeKit.cc</a> | <a href="https://tose.sh">TOSE.sh</a>
 </p>
 
-## Có gì mới trong v2.0
+## What's New in v2.0
 
-### Sinh Design System thông minh
+### Intelligent Design System Generation
 
-Tính năng chủ lực của v2.0 là **Design System Generator** - một reasoning engine được hỗ trợ bởi AI, có khả năng phân tích yêu cầu dự án và sinh ra một design system hoàn chỉnh, được tùy biến theo ngữ cảnh chỉ trong vài giây.
+The flagship feature of v2.0 is the **Design System Generator** - an AI-powered reasoning engine that analyzes your project requirements and generates a complete, tailored design system in seconds.
 
 ```
 +----------------------------------------------------------------------------------------+
@@ -96,7 +96,7 @@ Tính năng chủ lực của v2.0 là **Design System Generator** - một reaso
 +----------------------------------------------------------------------------------------+
 ```
 
-### Design System Generation hoạt động như thế nào
+### How Design System Generation Works
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -131,12 +131,12 @@ Tính năng chủ lực của v2.0 là **Design System Generator** - một reaso
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 161 Reasoning Rules theo từng ngành
+### 161 Industry-Specific Reasoning Rules
 
-Reasoning engine bao gồm các rule chuyên biệt cho:
+The reasoning engine includes specialized rules for:
 
-| Category | Ví dụ |
-|----------|------|
+| Category | Examples |
+|----------|----------|
 | **Tech & SaaS** | SaaS, Micro SaaS, B2B Service, Developer Tool / IDE, AI/Chatbot Platform, Cybersecurity Platform |
 | **Finance** | Fintech/Crypto, Banking, Insurance, Personal Finance Tracker, Invoice & Billing Tool |
 | **Healthcare** | Medical Clinic, Pharmacy, Dental, Veterinary, Mental Health, Medication Reminder |
@@ -146,36 +146,36 @@ Reasoning engine bao gồm các rule chuyên biệt cho:
 | **Lifestyle** | Habit Tracker, Recipe & Cooking, Meditation, Weather, Diary, Mood Tracker |
 | **Emerging Tech** | Web3/NFT, Spatial Computing, Quantum Computing, Autonomous Drone Fleet |
 
-Mỗi rule bao gồm:
-- **Recommended Pattern** - cấu trúc landing page
-- **Style Priority** - các UI style phù hợp nhất
-- **Color Mood** - palette phù hợp với từng ngành
-- **Typography Mood** - cách match cá tính font
-- **Key Effects** - animation và interaction
-- **Anti-Patterns** - những điều KHÔNG nên làm, ví dụ "AI purple/pink gradients" cho banking
+Each rule includes:
+- **Recommended Pattern** - Landing page structure
+- **Style Priority** - Best matching UI styles
+- **Color Mood** - Industry-appropriate palettes
+- **Typography Mood** - Font personality matching
+- **Key Effects** - Animations and interactions
+- **Anti-Patterns** - What NOT to do (e.g., "AI purple/pink gradients" for banking)
 
-## Tính năng
+## Features
 
-- **84 UI Styles** - Glassmorphism, Claymorphism, Minimalism, Brutalism, Neumorphism, Bento Grid, Dark Mode, AI-Native UI, v.v.
-- **192 Color Palettes** - palette theo từng ngành, map 1:1 với 192 product types
-- **74 Font Pairings** - các typography combination được tuyển chọn, kèm Google Fonts imports
-- **25 Chart Types** - gợi ý cho dashboards và analytics
+- **84 UI Styles** - Glassmorphism, Claymorphism, Minimalism, Brutalism, Neumorphism, Bento Grid, Dark Mode, AI-Native UI, and more
+- **192 Color Palettes** - Industry-specific palettes aligned 1:1 with the 192 product types
+- **74 Font Pairings** - Curated typography combinations with Google Fonts imports
+- **25 Chart Types** - Recommendations for dashboards and analytics
 - **22 Tech Stacks** - React, Next.js, Astro, Vue, Nuxt.js, Nuxt UI, Svelte, SwiftUI, React Native, Flutter, HTML+Tailwind, shadcn/ui, Jetpack Compose, Angular, Laravel, Three.js, JavaFX, WPF, WinUI 3, UWP, Avalonia, Uno Platform
-- **98 UX Guidelines** - best practices, anti-patterns và accessibility rules
-- **161 Reasoning Rules** - sinh design system theo từng ngành (MỚI trong v2.0)
+- **98 UX Guidelines** - Best practices, anti-patterns, and accessibility rules
+- **161 Reasoning Rules** - Industry-specific design system generation (NEW in v2.0)
 
 ### Available Styles (67)
 
 <details>
 <summary><b>General Styles (49)</b></summary>
 
-| # | Style | Phù hợp nhất cho |
-|---|-------|------------------|
+| # | Style | Best For |
+|---|-------|----------|
 | 1 | Minimalism & Swiss Style | Enterprise apps, dashboards, documentation |
 | 2 | Neumorphism | Health/wellness apps, meditation platforms |
 | 3 | Glassmorphism | Modern SaaS, financial dashboards |
 | 4 | Brutalism | Design portfolios, artistic projects |
-| 5 | 3D & Hyperrealism | Gaming, product showcase, trải nghiệm immersive |
+| 5 | 3D & Hyperrealism | Gaming, product showcase, immersive |
 | 6 | Vibrant & Block-based | Startups, creative agencies, gaming |
 | 7 | Dark Mode (OLED) | Night-mode apps, coding platforms |
 | 8 | Accessible & Ethical | Government, healthcare, education |
@@ -205,7 +205,7 @@ Mỗi rule bao gồm:
 | 32 | Swiss Modernism 2.0 | Corporate sites, architecture, editorial |
 | 33 | HUD / Sci-Fi FUI | Sci-fi games, space tech, cybersecurity |
 | 34 | Pixel Art | Indie games, retro tools, creative |
-| 35 | Bento Grids | Product features, dashboards, cá nhân |
+| 35 | Bento Grids | Product features, dashboards, personal |
 | 36 | Spatial UI (VisionOS) | Spatial computing apps, VR/AR |
 | 37 | E-Ink / Paper | Reading apps, digital newspapers |
 | 38 | Gen Z Chaos / Maximalism | Gen Z lifestyle, music artists |
@@ -226,12 +226,12 @@ Mỗi rule bao gồm:
 <details>
 <summary><b>Landing Page Styles (8)</b></summary>
 
-| # | Style | Phù hợp nhất cho |
-|---|-------|------------------|
-| 1 | Hero-Centric Design | Sản phẩm có visual identity mạnh |
+| # | Style | Best For |
+|---|-------|----------|
+| 1 | Hero-Centric Design | Products with strong visual identity |
 | 2 | Conversion-Optimized | Lead generation, sales pages |
-| 3 | Feature-Rich Showcase | SaaS, sản phẩm phức tạp |
-| 4 | Minimal & Direct | Sản phẩm đơn giản, apps |
+| 3 | Feature-Rich Showcase | SaaS, complex products |
+| 4 | Minimal & Direct | Simple products, apps |
 | 5 | Social Proof-Focused | Services, B2C products |
 | 6 | Interactive Product Demo | Software, tools |
 | 7 | Trust & Authority | B2B, enterprise, consulting |
@@ -242,14 +242,14 @@ Mỗi rule bao gồm:
 <details>
 <summary><b>BI/Analytics Dashboard Styles (10)</b></summary>
 
-| # | Style | Phù hợp nhất cho |
-|---|-------|------------------|
-| 1 | Data-Dense Dashboard | Phân tích dữ liệu phức tạp |
-| 2 | Heat Map & Heatmap Style | Dữ liệu địa lý/hành vi |
-| 3 | Executive Dashboard | Tóm tắt cho C-suite |
+| # | Style | Best For |
+|---|-------|----------|
+| 1 | Data-Dense Dashboard | Complex data analysis |
+| 2 | Heat Map & Heatmap Style | Geographic/behavior data |
+| 3 | Executive Dashboard | C-suite summaries |
 | 4 | Real-Time Monitoring | Operations, DevOps |
-| 5 | Drill-Down Analytics | Khám phá chi tiết |
-| 6 | Comparative Analysis Dashboard | So sánh song song |
+| 5 | Drill-Down Analytics | Detailed exploration |
+| 6 | Comparative Analysis Dashboard | Side-by-side comparisons |
 | 7 | Predictive Analytics | Forecasting, ML insights |
 | 8 | User Behavior Analytics | UX research, product analytics |
 | 9 | Financial Dashboard | Finance, accounting |
@@ -257,46 +257,46 @@ Mỗi rule bao gồm:
 
 </details>
 
-## 💎 So sánh Basic và Premium Version
+## 💎 Basic vs. Premium Version Comparison
 
-Nhiều người dùng hỏi về điểm khác nhau giữa bản open-source và bản premium. Dưới đây là phần phân tích chi tiết để giúp bạn chọn phiên bản phù hợp với workflow của mình.
+Many users ask about the differences between the open-source and premium versions. Here is a detailed breakdown to help you choose the right fit for your workflow.
 
-### 🟢 Basic Version (Repository này)
-* **Fully Open Source:** phù hợp cho individual developers, hobbyists và các dự án tiêu chuẩn.
-* **Core UI/UX Intelligence:** truy cập đầy đủ 84 UI styles, 192 product types, color palettes và font pairings được tuyển chọn.
-* **Smart Recommendations:** tích hợp BM25 search engine để match thiết kế với độ chính xác cao.
-* **Cross-Platform Support:** guideline theo từng stack, hỗ trợ 22 framework lớn như React, Vue, Tailwind, iOS, Android, v.v.
-* **Design System Generation:** sinh tức thì UI rules, patterns và logic được tùy biến qua CLI.
+### 🟢 Basic Version (This Repository)
+* **Fully Open Source:** Perfect for individual developers, hobbyists, and standard projects.
+* **Core UI/UX Intelligence:** Full access to 84 UI styles, 192 product types, color palettes, and curated font pairings.
+* **Smart Recommendations:** Built-in BM25 search engine for highly accurate design matching.
+* **Cross-Platform Support:** Stack-specific guidelines supporting 22 major frameworks (React, Vue, Tailwind, iOS, Android, etc.).
+* **Design System Generation:** Instantly generate tailored UI rules, patterns, and logic via CLI.
 
 ### 🟡 Premium Version
-* **Extended Brand Design Skills:** mở rộng vượt ngoài UI/UX, bao gồm Brand Identity generation, Logo Design, Corporate Identity Programs (CIP), Banners, Presentation Slides và custom Iconography.
-* **Advanced Asset Creation:** tích hợp sâu với AI-powered image generation để tạo visual assets thật, không chỉ là placeholder.
-* **Enterprise Architecture:** kiến trúc Design Token toàn diện và dễ mở rộng hơn, được xây cho triển khai team quy mô lớn.
-* **Priority Support:** hỗ trợ kỹ thuật riêng cho teams và professionals cần workflow thiết kế hoàn chỉnh không gián đoạn.
+* **Extended Brand Design Skills:** Goes beyond UI/UX to include Brand Identity generation, Logo Design, Corporate Identity Programs (CIP), Banners, Presentation Slides, and custom Iconography.
+* **Advanced Asset Creation:** Deep integration with AI-powered image generation to create real visual assets, not just placeholders.
+* **Enterprise Architecture:** A more comprehensive and scalable Design Token architecture, built for large-scale team deployments.
+* **Priority Support:** Dedicated technical assistance for teams and professionals who need an uninterrupted full design workflow.
 
-👉 *Để xem thêm chi tiết về việc nâng cấp lên Premium tier, truy cập [uupm.cc](https://uupm.cc).*
+👉 *For more details on upgrading to the Premium tier, visit [uupm.cc](https://uupm.cc).*
 
-## Cài đặt
+## Installation
 
-### Dùng Claude Marketplace (Claude Code)
+### Using Claude Marketplace (Claude Code)
 
-Cài trực tiếp trong Claude Code bằng hai command:
+Install directly in Claude Code with two commands:
 
 ```
 /plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
 /plugin install ui-ux-pro-max@ui-ux-pro-max-skill
 ```
 
-### Dùng CLI (Khuyến nghị)
+### Using CLI (Recommended)
 
 ```bash
-# Cài CLI global
+# Install CLI globally
 npm install -g ui-ux-pro-max-cli
 
-# Đi tới project của bạn
+# Go to your project
 cd /path/to/your/project
 
-# Cài cho AI assistant của bạn
+# Install for your AI assistant
 uipro init --ai claude      # Claude Code
 uipro init --ai cursor      # Cursor
 uipro init --ai windsurf    # Windsurf
@@ -316,66 +316,66 @@ uipro init --ai kilocode    # KiloCode
 uipro init --ai warp        # Warp
 uipro init --ai augment     # Augment
 uipro init --ai codewhale   # CodeWhale
-uipro init --ai all         # Tất cả assistants
+uipro init --ai all         # All assistants
 ```
 
-Package npm là `ui-ux-pro-max-cli`; package này vẫn cài command `uipro`. Các release `uipro-cli` cũ đã lỗi thời và không nên dùng cho assets hiện tại.
+The npm package is `ui-ux-pro-max-cli`; it still installs the `uipro` command. Older `uipro-cli` releases are stale and should not be used for current assets.
 
-### Global Install (Dùng được cho tất cả projects)
+### Global Install (Available for All Projects)
 
 ```bash
-uipro init --ai claude --global   # Cài vào ~/.claude/skills/
-uipro init --ai cursor --global   # Cài vào ~/.cursor/skills/
+uipro init --ai claude --global   # Install to ~/.claude/skills/
+uipro init --ai cursor --global   # Install to ~/.cursor/skills/
 ```
 
-### Các CLI command khác
+### Other CLI Commands
 
 ```bash
-uipro versions              # Liệt kê các version có sẵn
-uipro update                # Làm mới skill files từ package CLI đã cài
-uipro init --offline        # Compatibility flag; cài bundled templates
-uipro uninstall             # Gỡ skill (auto-detect platform)
-uipro uninstall --ai claude # Gỡ platform cụ thể
-uipro uninstall --global    # Gỡ bản global install
+uipro versions              # List available versions
+uipro update                # Refresh skill files from installed CLI package
+uipro init --offline        # Compatibility flag; installs bundled templates
+uipro uninstall             # Remove skill (auto-detect platform)
+uipro uninstall --ai claude # Remove specific platform
+uipro uninstall --global    # Remove from global install
 ```
 
-## Điều kiện cần
+## Prerequisites
 
-Cần Python 3.x để chạy search script (chỉ dùng standard library - scripts không cài gì và không gọi network).
+Python 3.x is required for the search script (standard library only — the scripts install nothing and make no network calls).
 
-Kiểm tra Python đã được cài chưa:
+Check if Python is installed:
 
 ```bash
 python3 --version
 ```
 
-Nếu thiếu, hãy tự cài từ [python.org](https://www.python.org/downloads/) hoặc bằng package manager của OS như Homebrew, apt, winget. Các bước cài đặt này dành cho **bạn, người dùng trực tiếp** - AI agents dùng skill này không bao giờ nên cài software lên máy của bạn; chúng được hướng dẫn phải hỏi bạn trước.
+If it is missing, install it yourself from [python.org](https://www.python.org/downloads/) or with your OS package manager (Homebrew, apt, winget). These install steps are for **you, the human user** — AI agents using this skill should never install software on your machine; they are instructed to ask you instead.
 
-## Cách dùng
+## Usage
 
 ### Skill Mode (Auto-activate)
 
-**Hỗ trợ:** Claude Code, Cursor, Windsurf, Antigravity, Codex CLI, Continue, Gemini CLI, OpenCode, Qoder, CodeBuddy, Droid (Factory), KiloCode, Warp, Augment, CodeWhale
+**Supported:** Claude Code, Cursor, Windsurf, Antigravity, Codex CLI, Continue, Gemini CLI, OpenCode, Qoder, CodeBuddy, Droid (Factory), KiloCode, Warp, Augment, CodeWhale
 
-Skill tự động kích hoạt khi bạn yêu cầu công việc UI/UX. Chỉ cần chat tự nhiên:
+The skill activates automatically when you request UI/UX work. Just chat naturally:
 
 ```
 Build a landing page for my SaaS product
 ```
 
-> **Trae**: Trước tiên hãy chuyển sang **SOLO** mode. Skill sẽ kích hoạt cho các yêu cầu UI/UX.
+> **Trae**: Switch to **SOLO** mode first. The skill will activate for UI/UX requests.
 
 ### Workflow Mode (Slash Command)
 
-**Hỗ trợ:** Kiro, GitHub Copilot, Roo Code, KiloCode
+**Supported:** Kiro, GitHub Copilot, Roo Code, KiloCode
 
-Dùng slash command để gọi skill:
+Use the slash command to invoke the skill:
 
 ```
 /ui-ux-pro-max Build a landing page for my SaaS product
 ```
 
-### Prompt ví dụ
+### Example Prompts
 
 ```
 Build a landing page for my SaaS product
@@ -389,17 +389,17 @@ Make a mobile app UI for e-commerce
 Build a fintech banking app with dark theme
 ```
 
-### Cách hoạt động
+### How It Works
 
-1. **Bạn yêu cầu** - yêu cầu bất kỳ tác vụ UI/UX nào như build, design, create, implement, review, fix, improve
-2. **Design System được sinh ra** - AI tự động sinh design system hoàn chỉnh bằng reasoning engine
-3. **Smart recommendations** - dựa trên product type và requirements của bạn, skill tìm style, color và typography phù hợp nhất
-4. **Code generation** - implement UI với color, font, spacing và best practices phù hợp
-5. **Pre-delivery checks** - validate theo các anti-pattern UI/UX phổ biến
+1. **You ask** - Request any UI/UX task (build, design, create, implement, review, fix, improve)
+2. **Design System Generated** - The AI automatically generates a complete design system using the reasoning engine
+3. **Smart recommendations** - Based on your product type and requirements, it finds the best matching styles, colors, and typography
+4. **Code generation** - Implements the UI with proper colors, fonts, spacing, and best practices
+5. **Pre-delivery checks** - Validates against common UI/UX anti-patterns
 
 ### Supported Stacks
 
-Skill cung cấp guideline theo từng stack cho:
+The skill provides stack-specific guidelines for:
 
 | Category | Stacks |
 |----------|--------|
@@ -414,19 +414,19 @@ Skill cung cấp guideline theo từng stack cho:
 | **Android** | Jetpack Compose |
 | **Cross-Platform** | React Native, Flutter |
 
-Chỉ cần nhắc stack bạn muốn trong prompt, hoặc để mặc định là HTML + Tailwind.
+Just mention your preferred stack in the prompt, or let it default to HTML + Tailwind.
 
 ## Design System Command (Advanced)
 
-Để truy cập trực tiếp design system generator:
+For direct access to the design system generator:
 
-> Lưu ý: nếu bạn cài qua Continue, hãy thay `.claude/skills/` bằng `.continue/skills/` trong các command bên dưới. Với Droid (Factory), dùng `.factory/skills/`.
+> Note: If you installed via Continue, replace `.claude/skills/` with `.continue/skills/` in the commands below. For Droid (Factory), use `.factory/skills/`.
 
 ```bash
-# Sinh design system với ASCII output
+# Generate design system with ASCII output
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "beauty spa wellness" --design-system -p "Serenity Spa"
 
-# Sinh với Markdown output
+# Generate with Markdown output
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "fintech banking" --design-system -f markdown
 
 # Domain-specific search
@@ -444,29 +444,29 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "enterprise tableview den
 
 ### Persist Design System (Master + Overrides Pattern)
 
-Lưu design system của bạn thành file để **hierarchical retrieval qua nhiều session**:
+Save your design system to files for **hierarchical retrieval across sessions**:
 
 ```bash
-# Sinh và persist vào design-system/MASTER.md
+# Generate and persist to design-system/MASTER.md
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp"
 
-# Đồng thời tạo page-specific override file
+# Also create a page-specific override file
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS dashboard" --design-system --persist -p "MyApp" --page "dashboard"
 ```
 
-Lệnh này tạo cấu trúc thư mục `design-system/`:
+This creates a `design-system/` folder structure:
 
 ```
 design-system/
 ├── MASTER.md           # Global Source of Truth (colors, typography, spacing, components)
 └── pages/
-    └── dashboard.md    # Page-specific overrides (chỉ chứa phần khác với Master)
+    └── dashboard.md    # Page-specific overrides (only deviations from Master)
 ```
 
-**Hierarchical retrieval hoạt động như sau:**
-1. Khi xây một page cụ thể, ví dụ "Checkout", trước tiên kiểm tra `design-system/pages/checkout.md`
-2. Nếu page file tồn tại, rules của nó **override** Master file
-3. Nếu không, chỉ dùng `design-system/MASTER.md`
+**How hierarchical retrieval works:**
+1. When building a specific page (e.g., "Checkout"), first check `design-system/pages/checkout.md`
+2. If the page file exists, its rules **override** the Master file
+3. If not, use `design-system/MASTER.md` exclusively
 
 **Context-aware retrieval prompt:**
 ```
@@ -479,40 +479,40 @@ Now, generate the code...
 
 ## Architecture & Contributing
 
-### Dành cho Users
+### For Users
 
-Codebase đã được tái cấu trúc để dùng **template-based generation system**. Tất cả platform-specific files như `.cursor/`, `.windsurf/`, `.kiro/`, `.factory/`, v.v. hiện được CLI generate động.
+The codebase has been restructured to use a **template-based generation system**. All platform-specific files (`.cursor/`, `.windsurf/`, `.kiro/`, `.factory/`, etc.) are now generated dynamically by the CLI.
 
-**Luôn dùng CLI để cài đặt:**
+**Always use the CLI to install:**
 
 ```bash
 npm install -g ui-ux-pro-max-cli
 uipro init --ai <platform>
 ```
 
-Cách này đảm bảo bạn nhận được template mới nhất được bundle trong package CLI đã cài và đúng file structure cho AI assistant của bạn. Hãy update package npm trước khi có release mới.
+This ensures you get the latest templates bundled with the installed CLI package and the correct file structure for your AI assistant. Update the npm package first when a new release is published.
 
-### Dành cho Contributors
+### For Contributors
 
-Nếu bạn muốn contribute cho dự án này:
+If you want to contribute to this project:
 
 ```bash
-# 1. Clone repository
+# 1. Clone the repository
 git clone https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
 cd ui-ux-pro-max-skill
 
-# 2. Hiểu cấu trúc
+# 2. Understand the structure
 src/ui-ux-pro-max/           # Source of truth (data, scripts, templates)
-cli/                         # CLI installer (generate files từ templates)
-.claude/                     # Local dev/test cho Claude Code skill
-.factory/                    # Local dev/test cho Droid (Factory) skill
+cli/                         # CLI installer (generates files from templates)
+.claude/                     # Local dev/test for Claude Code skill
+.factory/                    # Local dev/test for Droid (Factory) skill
 
-# 3. Thay đổi trong src/ui-ux-pro-max/
+# 3. Make changes in src/ui-ux-pro-max/
 # - data/*.csv              → Database files
 # - scripts/*.py            → Search engine & design system
 # - templates/              → Platform-specific templates
 
-# 4. Sync sang CLI và test local
+# 4. Sync to CLI and test locally
 cd cli
 npm run sync:assets
 npm run check:assets
@@ -521,95 +521,95 @@ npm run smoke:domains
 npm run smoke:stacks
 npm run typecheck
 
-# 5. Build và test CLI
-# `npm run build` dùng Bun nếu có và fallback sang TypeScript compiler output sau `npm ci`.
+# 5. Build and test CLI
+# `npm run build` uses Bun when available and falls back to TypeScript compiler output after `npm ci`.
 npm run build
-node dist/index.js init --ai claude --offline  # Test trong temp folder
+node dist/index.js init --ai claude --offline  # Test in a temp folder
 
-# 6. Tạo PR (không bao giờ push trực tiếp lên main)
+# 6. Create PR (never push directly to main)
 git checkout -b feat/your-feature
 git commit -m "feat: description"
 git push -u origin feat/your-feature
 gh pr create
 ```
 
-Xem [CLAUDE.md](CLAUDE.md) để biết development guidelines chi tiết.
+See [CLAUDE.md](CLAUDE.md) for detailed development guidelines.
 
 
 ## Automated Releases
 
-Repository này dùng semantic-release với Conventional Commits để tự động tạo GitHub releases:
+This repository uses semantic-release with Conventional Commits to create GitHub releases automatically:
 
-- branch `dev` tạo beta GitHub prereleases như `2.6.0-beta.1`.
-- branch `main` tạo stable GitHub releases chính thức như `2.6.0`.
+- `dev` branch creates beta GitHub prereleases such as `2.6.0-beta.1`.
+- `main` branch creates official stable GitHub releases such as `2.6.0`.
 
-Release notes và `CHANGELOG.md` được generate từ Conventional Commit messages. Version numbers được đồng bộ giữa `skill.json`, `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `cli/package.json` và `cli/package-lock.json` trong quá trình chuẩn bị release.
+Release notes and `CHANGELOG.md` are generated from Conventional Commit messages. Version numbers are synchronized across `skill.json`, `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `cli/package.json`, and `cli/package-lock.json` during release preparation.
 
-Dùng các commit type sau để bump version đúng:
+Use these commit types for correct version bumps:
 
 - `fix:` -> patch release
 - `feat:` -> minor release
-- `feat!:` hoặc `BREAKING CHANGE:` -> major release
+- `feat!:` or `BREAKING CHANGE:` -> major release
 
-Release workflow dùng `GITHUB_TOKEN` mặc định cho GitHub releases và repository secret `NPM_TOKEN` để publish `ui-ux-pro-max-cli` lên npm.
+The release workflow uses the default `GITHUB_TOKEN` for GitHub releases and the repository `NPM_TOKEN` secret to publish `ui-ux-pro-max-cli` to npm.
 
 ## Troubleshooting
 
-### `uipro: unknown command 'uninstall'` hoặc `unknown command 'update'`
+### `uipro: unknown command 'uninstall'` or `unknown command 'update'`
 
-Version `ui-ux-pro-max-cli` bạn đang cài đã cũ. Hãy update rồi thử lại:
+Your installed version of `ui-ux-pro-max-cli` is outdated. Update it and retry:
 
 ```bash
 npm install -g ui-ux-pro-max-cli@latest
 uipro uninstall
 ```
 
-### `uipro uninstall` báo "No installed AI skill directories detected"
+### `uipro uninstall` says "No installed AI skill directories detected"
 
-Skill đã được cài ở thư mục khác với nơi bạn đang chạy command. Chọn một trong các cách sau:
+The skill was installed in a different directory than where you're running the command. Either:
 
 ```bash
-# Option A — chạy từ project root nơi ban đầu bạn đã cài
+# Option A — run from the project root where you originally installed it
 cd /path/to/your/project
 uipro uninstall
 
-# Option B — gỡ global install
+# Option B — remove the global install
 uipro uninstall --global
 
-# Option C — gỡ thủ công
+# Option C — remove manually
 rm -rf .claude/skills/ui-ux-pro-max   # Claude Code
 rm -rf .cursor/skills/ui-ux-pro-max   # Cursor
 rm -rf .windsurf/skills/ui-ux-pro-max # Windsurf
 rm -rf .agents/skills/ui-ux-pro-max   # Antigravity
 ```
 
-### Cài bằng Claude Marketplace thất bại với lỗi "Zip file contains a symbolic link"
+### Claude Marketplace install fails with "Zip file contains a symbolic link"
 
-Đây là issue đã biết với các version trước v2.5.1. Repository từng dùng symlink nội bộ mà một số installation tools không xử lý được. **Cách sửa:** dùng CLI installer thay thế:
+This is a known issue with versions prior to v2.5.1. The repository used symlinks internally which some installation tools can't handle. **Fix:** use the CLI installer instead:
 
 ```bash
 npm install -g ui-ux-pro-max-cli
 uipro init --ai claude
 ```
 
-Hoặc chờ release tiếp theo, nơi issue này được xử lý.
+Or wait for the next release where this is resolved.
 
-### `npm install -g ui-ux-pro-max-cli` thất bại vì permission error
+### `npm install -g ui-ux-pro-max-cli` fails with permission error
 
-Dùng Node version manager (khuyến nghị), hoặc bỏ qua global install hoàn toàn:
+Use a Node version manager (recommended), or skip the global install entirely:
 
 ```bash
-# npx không cần cài global
+# npx without installing globally
 npx ui-ux-pro-max-cli init --ai claude
 ```
 
-### Không tìm thấy Python khi chạy design system commands
+### Python not found when running design system commands
 
-Search scripts cần Python 3.x. Hãy cài thủ công từ [python.org](https://www.python.org/downloads/) hoặc bằng package manager của OS như Homebrew, apt, winget. AI agents không nên cài thay bạn - chúng được hướng dẫn phải hỏi bạn trước.
+The search scripts require Python 3.x. Install it manually from [python.org](https://www.python.org/downloads/) or with your OS package manager (Homebrew, apt, winget). AI agents should not install it for you — they are instructed to ask you instead.
 
-### Design system output bị cắt / fields bị truncate
+### Design system output is cut off / fields truncated
 
-Human-readable output cắt các field dài ở 300 ký tự. Dùng `--json` để lấy dữ liệu đầy đủ, không bị truncate:
+Human-readable output truncates long fields at 300 characters. Use `--json` to get the full, untruncated data:
 
 ```bash
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS" --domain style --json
@@ -623,10 +623,10 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "SaaS" --domain style --j
 
 ## License
 
-Dự án này được cấp phép theo [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ## Compatible Agents
 
-Skill này hoạt động với:
+This skill works with:
 - [Claude Code](https://claude.com/product/claude-code)
 - [AdaL](https://sylph.ai/) - Self-evolving AI coding agent ([Docs](https://docs.sylph.ai/) | [GitHub](https://github.com/SylphAI-Inc/adal-cli))
